@@ -20,7 +20,7 @@ body {
     font-size: 1.133333vw;
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 770px) {
     font-size: 1.633333vw;
   }
 
@@ -155,26 +155,46 @@ body {
     &--four {
       width: 20%;
       background: gold;
+
+      @media screen and (max-width: 770px) {
+        width: 50%;
+      }
     }
 
     &--two {
       width: 50%;
       background: hotpink;
+
+      @media screen and (max-width: 770px) {
+        width: 100%;
+      }
     }
  
     &--six {
       width: 16%;
       background: mediumpurple;
+
+      @media screen and (max-width: 770px) {
+        width: 30%;
+      }
     }
  
     &--three {
       width: 30%;
       background: salmon;
+
+      @media screen and (max-width: 770px) {
+        width: 100%;
+      }
     }
  
     &--five {
       width: 20%;
       background: rgb(105, 114, 196);
+
+      @media screen and (max-width: 770px) {
+        width: 30%;
+      }
     }
   }
 }
