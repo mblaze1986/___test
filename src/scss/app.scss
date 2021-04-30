@@ -29,7 +29,7 @@
   margin: 0 auto;
   background: rgb(255, 228, 196);
   width: 100%;
-  border: 7px solid rgba(86, 48, 24, 0.8);
+  border: em(7) solid rgba(86, 48, 24, 0.8);
   background-color: rgba(24, 22, 21, 0.8);
 }
 
@@ -40,11 +40,9 @@
   background-color: rgb(0, 0, 0);
   clip-path: polygon(50% 0, 100% 50%, 100% 100%, 0 100%, 0 50%);
   box-sizing: border-box;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   color: rgb(106, 131, 139);
 
   &__body {
