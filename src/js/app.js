@@ -2,6 +2,8 @@ import '../scss/app.scss';
 
 /* Your JS Code goes here */
 
+import './_test.js'
+
 import './01_numbers.js'
 import './02_strings.js'
 import './03_functions.js'
@@ -197,11 +199,3 @@ import './04_arrays.js'
 
 // person.hasWife = true
 // console.log(person)
-
-let button = document.querySelector('.pentagon__inner')
-let text = document.querySelector('.pentagon__text')
-
-button.onclick = function () {
-  button.classList.toggle('active')
-  text.classList.toggle('active')
-}
