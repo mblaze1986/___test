@@ -1,0 +1,59 @@
+<div class="container">
+
+  <div class="form">
+    <form action="#" id="form" class="form__body">
+      <h2 class="form__title">Отправка данных на почту</h2>
+      <div class="form__item">
+        <label for="formName" class="form__label">Имя*:</label>
+        <input id="formName" type="text" name="name" class="form__input">
+      </div>
+      <div class="form__item">
+        <label for="formEmail" class="form__label">Email*:</label>
+        <input id="formEmail" type="text" name="Email" class="form__input">
+      </div>
+      <div class="form__item">
+        <span class="form__label">Левша или правша?</span>
+          <div class="options">
+            <div class="options__item">
+              <input id="formRightHand" checked type="radio" value="right" name="hand" class="options__input">
+              <label for="formRightHand" class="options__label"><span class="options__text">Правша</span></label>
+            </div>
+            <div class="options__item">
+              <input id="formLeftHand" type="radio" value="left" name="hand" class="options__input">
+              <label for="formLeftHand" class="options__label"><span class="options__text">Левша</span></label>
+            </div>
+          </div>
+      </div>
+      <div class="form__item">
+        <label for="formMessage" class="form__label">Сообщение</label>
+        <textarea name="Message" id="formMessage" class="form__input  form__input--message"></textarea>
+      </div>
+      <div class="form__item">
+        <div class="form__label">Возраст:</div>
+        <select name="age" class="select">
+          <option value="от 18 до 25">Молодой</option>
+          <option value="от 25 до 45" selected>Старый</option>
+          <option value="от 45">Супер стар</option>
+        </select>
+      </div>
+      <div class="form__item">
+        <span class="form__label">Прикрепить фото</span>
+        <div class="file">
+          <div class="file__item">
+            <input id="formImage" accept=".jpg, .png, .gif" type="file" name="image" class="file__input">
+            <div class="file__button"><span class="file__button-text">Выбрать</span></div>
+          </div>
+          <div class="file__preview"></div>
+        </div>
+      </div>
+      <div class="form__item">
+        <div class="checkbox">
+          <input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input">
+          <label for="formAgreement" class="checkbox__label"><span class="checkbox__text">Даю согласие на обработку персональных данных</span></label>
+        </div>
+      </div>
+      <button type="submit" class="form__button"><span class="form__button-text">Отправить</span></и>
+    </form>
+  </div>
+
+</div><!-- container -->

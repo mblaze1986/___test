@@ -1,3 +1,25 @@
+// form -------------------------------------------------------------------------------------
+'use strict'
+
+document.addEventListener('DOMContentLoaded', function () {
+  const form = document.getElementById('form');
+  form.addEventListener('submit', formSend);
+
+  async function formSend(e) {
+    e.preventDefault();
+
+    let error = formValidate(form);
+  }
+
+
+  function formValidate(form){
+    
+  }
+});
+
+
+
+
 let button = document.querySelector('.pentagon__inner')
 let text = document.querySelector('.pentagon__text')
 
@@ -5,7 +27,6 @@ button.onclick = function () {
   button.classList.toggle('active')
   text.classList.toggle('active')
 }
-
 
 
 
@@ -45,3 +66,7 @@ $('.vertical-tabs').each(function () {
     tabswitch.find('.vertical-tabs__item').hide(500).eq($(this).index()).show(500)
   }).eq(2).addClass('vertical-tabs__btn--is-active');
 });
+
+
+
+
